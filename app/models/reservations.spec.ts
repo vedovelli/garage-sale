@@ -19,8 +19,6 @@ describe("reservation model", () => {
   xit("should return all reservations", async () => {
     const reservations = await getReservations();
 
-    console.log(reservations);
-
     expect(reservations).toBeDefined();
   });
 });
